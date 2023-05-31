@@ -14,4 +14,8 @@ public class Vertex<V> {
         return adjVertices;
     }
 
+    public V getData() {
+        return data;
+    }
+
 }
