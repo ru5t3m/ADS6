@@ -23,4 +23,8 @@ public class Vertex<V> {
         this.adjVertices = new HashMap<>();
     }
 
+    @Override
+    public String toString() {
+        return "Vertex " + this.data;
+    }
 }
