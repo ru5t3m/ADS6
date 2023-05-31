@@ -10,4 +10,8 @@ public class Vertex<V> {
         adjVertices.put(dest, weight);
     }
 
+    public Map<Vertex<V>, Double> getAdjacentVertices() {
+        return adjVertices;
+    }
+
 }
