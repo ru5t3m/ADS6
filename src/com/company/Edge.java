@@ -5,25 +5,25 @@ public class Edge<V> {
     private Vertex<V> dest;
     private Double weight;
 
-    public Edge(Vertex source, Vertex dest, Double weight) {
+    public Edge(Vertex<V> source, Vertex<V> dest, Double weight) {
         this.source = source;
         this.dest = dest;
         this.weight = weight;
     }
 
-    public Vertex getSource() {
+    public Vertex<V> getSource() {
         return source;
     }
 
-    public void setSource(Vertex source) {
+    public void setSource(Vertex<V> source) {
         this.source = source;
     }
 
-    public Vertex getDest() {
+    public Vertex<V> getDest() {
         return dest;
     }
 
-    public void setDest(Vertex dest) {
+    public void setDest(Vertex<V> dest) {
         this.dest = dest;
     }
 
