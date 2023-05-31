@@ -10,4 +10,13 @@ public class Edge<V> {
         this.dest = dest;
         this.weight = weight;
     }
+
+    public Vertex getSource() {
+        return source;
+    }
+
+    public void setSource(Vertex source) {
+        this.source = source;
+    }
+
 }
