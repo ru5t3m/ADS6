@@ -19,4 +19,12 @@ public class Edge<V> {
         this.source = source;
     }
 
+    public Vertex getDest() {
+        return dest;
+    }
+
+    public void setDest(Vertex dest) {
+        this.dest = dest;
+    }
+
 }
