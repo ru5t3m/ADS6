@@ -27,4 +27,11 @@ public class Edge<V> {
         this.dest = dest;
     }
 
+    public Double getWeight() {
+        return weight;
+    }
+
+    public void setWeight(Double weight) {
+        this.weight = weight;
+    }
 }
