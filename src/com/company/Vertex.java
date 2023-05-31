@@ -18,4 +18,9 @@ public class Vertex<V> {
         return data;
     }
 
+    public Vertex(V data) {
+        this.data = data;
+        this.adjVertices = new HashMap<>();
+    }
+
 }
